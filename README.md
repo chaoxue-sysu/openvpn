@@ -3,7 +3,7 @@ Deploy and use the OpenVPN.
 ## Server start
 Run the shell command following on Linux system
 ```Bash
-git clone https://github.com/chaoxue-sysu/openvpn && cd openvpn && bash openvpn-install.sh
+wget https://raw.githubusercontent.com/chaoxue-sysu/openvpn/master/openvpn-install.sh && bash openvpn-install.sh
 ```
 If you want add some configure files for other users, just rerun the script:
 ```Bash
